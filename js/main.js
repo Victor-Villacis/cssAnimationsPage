@@ -32,6 +32,7 @@ function draw() {
 var drawline = function () {
 
   if (x <= canvas.width) {
+    //brute force, each frame starts off with a blank slate. 
     ctx.clearRect(0, 0, 345, 345);
     ctx.strokeStyle = 'rgb(139, 0, 0)';
     ctx.lineWidth = 18;
